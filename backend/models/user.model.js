@@ -16,7 +16,7 @@ const userSchema = new mongoose.Schema(
       required: true,
     },
     lastLogin: {
-      type: DataTransfer,
+      type: Date,
       default: Date.now,
     },
     isVerified: {
